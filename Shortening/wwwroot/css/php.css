@@ -1,0 +1,50 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    min-height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    align-content: center;
+    min-height: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.form-main {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+input[name="value"] {
+    padding: 0.5em;
+    border-bottom-left-radius: 0.2em;
+    border-top-left-radius: 0.2em;
+    border: 1px solid gray;
+    flex-grow: 1;
+}
+
+    input[name="value"]:focus {
+        outline: none;
+    }
+
+input[type="submit"] {
+    border-bottom-right-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    border: 1px solid gray;
+    border-left: none;
+}
